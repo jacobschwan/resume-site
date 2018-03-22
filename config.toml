@@ -1,0 +1,41 @@
+baseURL = "https://jacobschwan.com/"
+languageCode = "en-us"
+title = "Jacob Schwan"
+theme = "resume"
+
+[params]
+    firstName = "Jacob"
+    lastName = "Schwan"
+    address = "Minneapolis, MN"
+#    phone = "1-763-229-3016"
+    contactNote = "Data Analyst"
+    profileImage = "img/profile_square.jpg"
+    email = "j.schwan@jacobschwan.com"
+    description = "I believe that data holds the key to understanding and when we improve our understanding we make better decisions."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = false
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+
+    showQr = true
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/jacobschwan/"
+
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/jacobschwan/"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/story/4779826"
+    icon = "stack-overflow"
+
+[params.google.analytics]
+    trackerID = ""
